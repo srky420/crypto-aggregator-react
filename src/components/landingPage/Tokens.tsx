@@ -36,8 +36,8 @@ export const Tokens = () => {
     }
 
     return (
-        <section className="container mx-auto px-5 md:px-20 lg:px-40 my-20 lg:my-40">
-            <h1 className="text-5xl font-rubik font-bold text-center mb-10">
+        <section className="container mx-auto px-5 md:px-20 lg:px-40 my-10 lg:my-20">
+            <h1 className="text-4xl sm:text-5xl font-rubik font-bold text-center mb-10">
                 <span className="text-transparent bg-gradient-to-r from-indigo-600 to-pink-600 bg-clip-text">Tokens</span> Listing
             </h1>
             <div className="font-inter border rounded-2xl">
@@ -51,8 +51,8 @@ export const Tokens = () => {
         
                 {data.map((item, index) => 
                     <div key={'listing' + index} className="grid grid-cols-4 sm:grid-cols-5 gap-2 p-5 border-b hover:bg-gray-100 last:border-b-0">
-                        <h6 className="">{item.name}</h6>
-                        <h6 className="font-semibold">{USDollar.format(item.quote.USD.price)}</h6>
+                        <h6 className="overflow-hidden text-ellipsis">{item.name}</h6>
+                        <h6 className="font-semibold overflow-hidden text-ellipsis">{USDollar.format(item.quote.USD.price)}</h6>
                         <h6 className={item.quote.USD.percent_change_24h < 0 ? "text-red-600" : "text-green-600"}>
                             {item.quote.USD.percent_change_24h > 0 && <>+</>}
                             {(item.quote.USD.percent_change_24h).toFixed(2)}%
@@ -62,10 +62,12 @@ export const Tokens = () => {
                     </div>
                 )}
             </div>
-            <div className="w-fit mx-auto my-10">
-                <Button variant="light" size="" text={`<i class="fa-solid fa-chevron-left"></i>`} onClick={prevPage} />
-                <Button variant="light" size="" text={`<i class="fa-solid fa-chevron-right"></i>`} onClick={nextPage} />
-                <p className="text-center">Showing {currentPage} of {totalPages}</p>
+            <div className="text-center my-10">
+                <div className="flex gap-2 mx-auto w-fit">
+                    <Button variant="light" size="" text={`<i class="fa-solid fa-chevron-left"></i>`} onClick={prevPage} />
+                    <Button variant="light" size="" text={`<i class="fa-solid fa-chevron-right"></i>`} onClick={nextPage} />
+                </div>
+                <p className="text-center opacity-80">Showing page {currentPage} of {totalPages}</p>
             </div>
         </section>
     )
