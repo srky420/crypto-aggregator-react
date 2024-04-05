@@ -15,7 +15,7 @@ export const Achievements = () => {
                 </div>
                 <div className="text-center">
                     <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">6.9M<span className="text-indigo-400">+</span></h1>
-                    <p className="text-xs md:text-sm opacity-80">Crypto <br /> Users</p>
+                    <p className="text-xs md:text-sm opacity-80">CryptoSpace <br /> Users</p>
                 </div>
                 <div className="text-center">
                     <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">0.5<span className="text-pink-400">%</span></h1>

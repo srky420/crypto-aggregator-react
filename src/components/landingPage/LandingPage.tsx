@@ -3,6 +3,8 @@ import { Chart } from "./Chart";
 import { Achievements } from "./Achievements";
 import { Tokens } from "./Tokens";
 import { Features } from "./Features";
+import { Brands } from "./Brands";
+import { MobileApp } from "./MobileApp";
 
 
 export const LandingPage = () => {
@@ -13,6 +15,8 @@ export const LandingPage = () => {
             <Achievements />
             <Tokens />
             <Features />
+            <Brands />
+            <MobileApp />
         </section>
     )
 }
