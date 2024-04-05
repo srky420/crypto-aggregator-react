@@ -68,8 +68,8 @@ export const Tokens = () => {
             </div>
             <div className="text-center my-10">
                 <div className="flex gap-2 mx-auto w-fit">
-                    <Button variant="light" size="" text={`<i class="fa-solid fa-chevron-left"></i>`} onClick={prevPage} />
-                    <Button variant="light" size="" text={`<i class="fa-solid fa-chevron-right"></i>`} onClick={nextPage} />
+                    <Button variant="icon" size="" text={`<i class="fa-solid fa-chevron-left"></i>`} onClick={prevPage} />
+                    <Button variant="icon" size="" text={`<i class="fa-solid fa-chevron-right"></i>`} onClick={nextPage} />
                 </div>
                 <p className="text-center opacity-80">Showing page {currentPage} of {totalPages}</p>
             </div>

@@ -1,4 +1,6 @@
-
+import dummyProfilePic from "../../assets/dummy-profile.jpg"
+import qrCode from "../../assets/qr-code.svg"
+import { Button } from "../globals/Button"
 
 
 export const MobileApp = () => {
@@ -15,6 +17,19 @@ export const MobileApp = () => {
                             Experience seamless access to the world of cryptocurrencies right from your fingertips with our mobile app. 
                             Stay connected to real-time market updates, manage your portfolio on-the-go, and never miss out on important alerts or news.
                         </p>
+                        <div className="flex justify-between items-center my-5">
+                            <div className="flex gap-5 items-center">
+                                <img src={qrCode} className="rounded-xl h-24" alt="qr-code" />
+                                <div className="font-inter">
+                                    <p className="text-gray-200">Scan to Download</p>
+                                    <p>iOS and Android</p>
+                                </div>
+                            </div>
+                            <div className="flex gap-2">
+                                <Button variant="icon" size="" text={`<i class="fa-brands fa-google-play text-black text-lg"></i>`} />
+                                <Button variant="icon" size="" text={`<i class="fa-brands fa-apple text-black text-xl"></i>`} />
+                            </div>
+                        </div>
                     </div>
                     
                     {/* Mobile screen view */}
@@ -29,8 +44,8 @@ export const MobileApp = () => {
                                 </div>
                                 {/* Mobile profile */}
                                 <div className="flex gap-2 p-5 font-inter">
-                                    <div className="w-12 h-12 border rounded-full">
-                                        <img src="" alt="" />
+                                    <div className="w-12 h-12 border rounded-full overflow-hidden">
+                                        <img src={dummyProfilePic} alt="dummy-profile-pic" />
                                     </div>
                                     <div>
                                         <p className="text-sm opacity-80">Your Balance</p>

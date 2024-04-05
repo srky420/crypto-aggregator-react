@@ -18,14 +18,20 @@ export const Button = (props: Props) => {
     // Set variant
     switch (props.variant) {
         case 'light':
-            className += 'bg-gray-50 hover:bg-gray-100 border';
+            className += 'bg-gray-50 hover:bg-gray-200 border';
             break;
         case 'dark':
-            className += 'bg-gray-900 text-white hover:bg-opacity-80'
+            className += 'bg-gray-900 text-white hover:bg-opacity-80';
             break;
         case 'primary':
-            className += 'bg-gradient-to-r from-pink-600 to-indigo-600 text-white hover:bg-gradient-to-l'
+            className += 'bg-gradient-to-r from-pink-600 to-indigo-600 text-white hover:bg-gradient-to-l';
             break;
+        case 'icon':
+            className += 'bg-gray-50 hover:bg-gray-200 border flex justify-center items-center w-16 h-16';
+            break;
+        case 'icon-sm':
+            className += 'bg-gray-50 hover:bg-gray-200 border flex justify-center items-center w-12 h-12';
+            break
     }
 
     return (
