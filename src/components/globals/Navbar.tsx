@@ -31,7 +31,7 @@ export const Navbar = () => {
                         <Button variant="primary" size="" text="Wallet" />
                     </div>
                     <div className="block sm:hidden">
-                        <Button variant="icon-sm" size="" text={`<i class="fa-solid fa-bars"></i>`} onClick={toggleOpen} />
+                        <Button variant="icon" size="" text={`<i class="fa-solid fa-bars"></i>`} onClick={toggleOpen} />
                     </div>
                 </div>
                 <Sidebar open={open} toggleOpen={toggleOpen} />

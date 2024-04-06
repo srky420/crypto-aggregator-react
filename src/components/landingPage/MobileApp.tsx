@@ -26,8 +26,8 @@ export const MobileApp = () => {
                                 </div>
                             </div>
                             <div className="flex gap-2">
-                                <Button variant="icon" size="" text={`<i class="fa-brands fa-google-play text-black text-lg"></i>`} />
-                                <Button variant="icon" size="" text={`<i class="fa-brands fa-apple text-black text-xl"></i>`} />
+                                <Button variant="icon" size="lg" text={`<i class="fa-brands fa-google-play text-black text-lg"></i>`} />
+                                <Button variant="icon" size="lg" text={`<i class="fa-brands fa-apple text-black text-xl"></i>`} />
                             </div>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ export const MobileApp = () => {
                             <div className="w-10 h-1 my-4 rounded-md bg-white mx-auto"></div>
                             <div className="h-full mx-4 my-4 bg-white">
                                 {/* Mobile nav */}
-                                <div className="font-rubik text-xl flex justify-between px-2">
+                                <div className="font-rubik text-xl flex justify-between px-2 border-b">
                                     <p className="text-pink-600 font-extrabold "><i className="fa-brands fa-bitcoin"></i> CoinSpace</p>
                                     <p><i className="fa fa-bars"></i></p>
                                 </div>
