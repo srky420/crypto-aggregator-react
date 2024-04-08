@@ -11,7 +11,7 @@ export const MobileApp = () => {
                     {/* Header */}
                     <div className="text-white flex-grow flex-shrink-0 basis-96">
                         <h1 className="text-4xl sm:text-5xl font-rubik font-bold">
-                            Take <span className="text-transparent bg-gradient-to-r from-indigo-600 to-pink-600 bg-clip-text">CryptoHub</span> Everywhere You Go!
+                            Take <span className="text-transparent bg-gradient-to-r from-indigo-600 to-pink-600 bg-clip-text">CoinSpace</span> Everywhere You Go!
                         </h1>
                         <p className="text-sm text-gray-300">
                             Experience seamless access to the world of cryptocurrencies right from your fingertips with our mobile app. 

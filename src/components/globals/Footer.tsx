@@ -14,25 +14,17 @@ export const Footer = () => {
                 </div>
                 <div className="flex gap-5 items-center font-inter">
                     <p>Follow Us:</p>
-                    <Button variant="icon" size="" text={`<i class="fa-brands fa-x-twitter"></i>`} />
-                    <Button variant="icon" size="" text={`<i class="fa-brands fa-instagram"></i>`} />
-                    <Button variant="icon" size="" text={`<i class="fa-brands fa-facebook-f"></i>`} />
-                    <Button variant="icon" size="" text={`<i class="fa-brands fa-youtube"></i>`} />
+                    <Button variant="icon" text={`<i class="fa-brands fa-x-twitter"></i>`} />
+                    <Button variant="icon" text={`<i class="fa-brands fa-instagram"></i>`} />
+                    <Button variant="icon" text={`<i class="fa-brands fa-facebook-f"></i>`} />
+                    <Button variant="icon" text={`<i class="fa-brands fa-youtube"></i>`} />
                 </div>
             </div>
             <hr />
             <div className="grid grid-cols-2 sm:grid-cols-4 my-10 gap-10 justify-center">
                 <div className="font-inter">
-                    <h3 className="text-lg font-semibold">Office Address</h3>
-                    <p className="opacity-80 mb-3">Office Address: 123 Main Street, Cityville, CryptoLand, 12345</p>
-                    <h3 className="text-lg font-semibold">Phone Number</h3>
-                    <p className="opacity-80 mb-3">+1 (555) 123-4567</p>
-                    <h3 className="text-lg font-semibold">Email Address</h3>
-                    <p className="opacity-80">info@cryptospace.com</p>
-                </div>
-                <div className="font-inter">
-                    <h3 className="text-lg font-semibold">Quick Links</h3>
-                    <ul>
+                    <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
+                    <ul className="*:mb-1">
                         <li><a href="" className="opacity-80 hover:opacity-100">Home</a></li>
                         <li><a href="" className="opacity-80 hover:opacity-100">About</a></li>
                         <li><a href="" className="opacity-80 hover:opacity-100">Pricing</a></li>
@@ -42,8 +34,8 @@ export const Footer = () => {
                     </ul>
                 </div>
                 <div className="font-inter">
-                    <h3 className="text-lg font-semibold">Legal Links</h3>
-                    <ul>
+                    <h3 className="text-lg font-semibold mb-2">Legal Links</h3>
+                    <ul className="*:mb-1">
                         <li><a href="" className="opacity-80 hover:opacity-100">Privacy Policy</a></li>
                         <li><a href="" className="opacity-80 hover:opacity-100">Wallet Security</a></li>
                         <li><a href="" className="opacity-80 hover:opacity-100">Exchange Terms</a></li>
@@ -53,8 +45,8 @@ export const Footer = () => {
                     </ul>
                 </div>
                 <div className="font-inter">
-                    <h3 className="text-lg font-semibold">Contact Links</h3>
-                    <ul>
+                    <h3 className="text-lg font-semibold mb-2">Contact Links</h3>
+                    <ul className="*:mb-1">
                         <li><a href="" className="opacity-80 hover:opacity-100">Help Center</a></li>
                         <li><a href="" className="opacity-80 hover:opacity-100">Feedback</a></li>
                         <li><a href="" className="opacity-80 hover:opacity-100">Careers</a></li>
@@ -62,6 +54,14 @@ export const Footer = () => {
                         <li><a href="" className="opacity-80 hover:opacity-100">FAQ</a></li>
                         <li><a href="" className="opacity-80 hover:opacity-100">Community</a></li>
                     </ul>
+                </div>
+                <div className="font-inter">
+                    <h3 className="text-lg font-semibold mb-2">Office Address</h3>
+                    <p className="opacity-80 mb-3">Office Address: 123 Main Street, Cityville, CryptoLand, 12345</p>
+                    <h3 className="text-lg font-semibold mb-2">Phone Number</h3>
+                    <p className="opacity-80 mb-3">+1 (555) 123-4567</p>
+                    <h3 className="text-lg font-semibold mb-2">Email Address</h3>
+                    <p className="opacity-80">info@cryptospace.com</p>
                 </div>
             </div>
         </section>

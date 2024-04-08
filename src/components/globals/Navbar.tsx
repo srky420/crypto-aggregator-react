@@ -28,10 +28,10 @@ export const Navbar = () => {
                         <li><a href="" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">Contact</a></li>
                     </ul>
                     <div className="ms-auto">
-                        <Button variant="primary" size="" text="Wallet" />
+                        <Button variant="primary" text="Wallet" />
                     </div>
                     <div className="block sm:hidden">
-                        <Button variant="icon" size="" text={`<i class="fa-solid fa-bars"></i>`} onClick={toggleOpen} />
+                        <Button variant="icon" text={`<i class="fa-solid fa-bars"></i>`} onClick={toggleOpen} />
                     </div>
                 </div>
                 <Sidebar open={open} toggleOpen={toggleOpen} />

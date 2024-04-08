@@ -5,6 +5,7 @@ import { Tokens } from "./Tokens";
 import { Features } from "./Features";
 import { Brands } from "./Brands";
 import { MobileApp } from "./MobileApp";
+import { BlogPosts } from "./BlogPosts";
 
 
 export const LandingPage = () => {
@@ -17,6 +18,7 @@ export const LandingPage = () => {
             <Features />
             <Brands />
             <MobileApp />
+            <BlogPosts />
         </section>
     )
 }

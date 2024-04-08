@@ -3,7 +3,7 @@
 // Define interface
 interface Props {
     variant: string;
-    size: string;
+    size?: string;
     text: string;
     disabled?: boolean;
     onClick?: any;
@@ -17,7 +17,7 @@ export const Button = (props: Props) => {
         className += props.size === 'lg' ? 'w-16 h-16 ' : 'w-12 h-12 '
     }
     else {
-        className += props.size === 'lg' ? 'px-8 py-5 ' : 'px-6 py-3 ';
+        className += props.size === 'lg' ? 'px-8 py-5 ' : props.size === 'sm' ? 'px-4 py-2 text-sm ' : 'px-6 py-3 ';
     }
 
     // Set variant

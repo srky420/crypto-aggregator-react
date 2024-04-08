@@ -20,7 +20,7 @@ export const Sidebar = (props: { open: boolean; toggleOpen: any }) => {
                     <li><a href="" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">Contact</a></li>
                 </ul>
                 <div className="w-fit mx-auto">
-                    <Button variant="icon" size="" text={`<i class="fa-solid fa-chevron-right"></i>`} onClick={props.toggleOpen} />
+                    <Button variant="icon" text={`<i class="fa-solid fa-chevron-right"></i>`} onClick={props.toggleOpen} />
                 </div>
             </div>
         </nav>
