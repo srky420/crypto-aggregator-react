@@ -5,7 +5,8 @@ import { Button } from "./Button"
 export const Footer = () => {
     return (
         <section className="container mx-auto px-5 lg:px-20 xl:px-40 my-10 lg:my-20">
-            <div className="flex justify-center md:justify-between gap-5 flex-wrap mb-5">
+            <hr />
+            <div className="flex justify-center md:justify-between gap-5 flex-wrap my-10">
                 <div>
                     <a href="" className="text-2xl text-pink-600 font-extrabold font-rubik">
                         <i className="fa-brands fa-bitcoin"></i> CoinSpace
@@ -20,7 +21,6 @@ export const Footer = () => {
                     <Button variant="icon" text={`<i class="fa-brands fa-youtube"></i>`} />
                 </div>
             </div>
-            <hr />
             <div className="grid grid-cols-2 sm:grid-cols-4 my-10 gap-10 justify-center">
                 <div className="font-inter">
                     <h3 className="text-lg font-semibold mb-2">Quick Links</h3>

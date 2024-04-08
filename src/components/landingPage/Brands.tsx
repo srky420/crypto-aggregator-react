@@ -2,7 +2,7 @@
 
 export const Brands = () => {
     return (
-        <section className="container mx-auto px-5 md:px-20 lg:px-40 my-10 lg:my-20">
+        <section className="container mx-auto px-5 md:px-20 lg:px-40 my-16 lg:my-28">
 
             {/* Header */}
             <h1 className="text-4xl sm:text-5xl font-rubik font-bold text-center mb-20">
