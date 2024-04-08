@@ -1,15 +1,14 @@
 import { useEffect, useState } from "react";
 import { cryptoListings } from "../../data/cryptoListings";
-import { Button } from "../globals/Button";
+import { Button } from "./Button";
 
 
-export const Tokens = () => {
+export const Tokens = (props: { pageSize: number }) => {
 
     // State for API Data
     const [data, setData] = useState(cryptoListings.data);
     const [currentPage, setCurrentPage] = useState(1);
-    const pageSize = 10;
-    const totalPages = Math.ceil(cryptoListings.data.length / pageSize);
+    const totalPages = Math.ceil(cryptoListings.data.length / props.pageSize);
 
     // USD Currency format
     const USDollar = new Intl.NumberFormat('en-US', {
@@ -20,7 +19,7 @@ export const Tokens = () => {
     // Effect
     useEffect(() => {
 
-        const paginatedData = cryptoListings.data.slice((currentPage - 1) * pageSize, ((currentPage - 1) * pageSize) + pageSize);
+        const paginatedData = cryptoListings.data.slice((currentPage - 1) * props.pageSize, ((currentPage - 1) * props.pageSize) + props.pageSize);
         setData(paginatedData);
 
     }, [currentPage])
@@ -36,14 +35,7 @@ export const Tokens = () => {
     }
 
     return (
-        <section className="container mx-auto px-5 md:px-20 lg:px-40 my-10 lg:my-20">
-
-            {/* Header */}
-            <h1 className="text-4xl sm:text-5xl font-rubik font-bold text-center mb-10">
-                <span className="text-transparent bg-gradient-to-r from-indigo-600 to-pink-600 bg-clip-text">Tokens</span> Listing
-            </h1>
-
-            {/* Tokens */}
+        <div>
             <div className="font-inter border rounded-2xl">
                 <div className="grid grid-cols-4 sm:grid-cols-5 bg-indigo-600 p-5 rounded-tr-2xl rounded-tl-2xl text-white">
                     <h6 className="">Name</h6>
@@ -73,6 +65,6 @@ export const Tokens = () => {
                 </div>
                 <p className="text-center opacity-80">Showing page {currentPage} of {totalPages}</p>
             </div>
-        </section>
+        </div>
     )
 }

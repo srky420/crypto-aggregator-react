@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom'
 import { Error } from './components/globals/Error.tsx'
 import { LandingPage } from './components/landingPage/LandingPage.tsx'
+import { TokensPage } from './components/tokensPage/TokensPage.tsx'
 
 
 // Create router
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <LandingPage />
+      },
+      {
+        path: '/token-listings',
+        element: <TokensPage />
       }
     ]
   }
