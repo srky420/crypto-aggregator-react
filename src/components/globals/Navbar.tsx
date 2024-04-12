@@ -23,7 +23,7 @@ export const Navbar = () => {
                     </div>
                     <ul className="hidden sm:flex font-inter items-center">
                         <li><NavLink to="/" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">Home</NavLink></li>
-                        <li><NavLink to="/" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">About</NavLink></li>
+                        <li><NavLink to="/about" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">About</NavLink></li>
                         <li><NavLink to="/token-listings" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">Tokens</NavLink></li>
                         <li><NavLink to="/" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">Blog</NavLink></li>
                         <li><NavLink to="/" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">Contact</NavLink></li>

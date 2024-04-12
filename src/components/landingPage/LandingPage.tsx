@@ -7,6 +7,7 @@ import { MobileApp } from "./MobileApp";
 import { BlogPosts } from "./BlogPosts";
 import { TokenListing } from "./TokenListing";
 import { useEffect } from "react";
+import { Newsletter } from "../globals/Newsletter";
 
 
 export const LandingPage = () => {
@@ -25,6 +26,7 @@ export const LandingPage = () => {
             <Brands />
             <MobileApp />
             <BlogPosts />
+            <Newsletter />
         </section>
     )
 }

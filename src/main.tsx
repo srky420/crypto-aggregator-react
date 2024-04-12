@@ -9,6 +9,7 @@ import {
 import { Error } from './components/globals/Error.tsx'
 import { LandingPage } from './components/landingPage/LandingPage.tsx'
 import { TokensPage } from './components/tokensPage/TokensPage.tsx'
+import { AboutPage } from './components/aboutPage/AboutPage.tsx'
 
 
 // Create router
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: '/token-listings',
         element: <TokensPage />
+      },
+      {
+        path: '/about',
+        element: <AboutPage />
       }
     ]
   }

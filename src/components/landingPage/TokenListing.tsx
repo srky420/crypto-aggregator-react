@@ -7,7 +7,7 @@ export const TokenListing = () => {
 
             {/* Header */}
             <h1 className="text-4xl sm:text-5xl font-rubik font-bold text-center mb-10">
-                <span className="text-transparent bg-gradient-to-r from-indigo-600 to-pink-600 bg-clip-text">Tokens</span> Listing
+                <span className="text-transparent bg-gradient-to-r from-indigo-600 to-pink-600 bg-clip-text">Token</span> Listings
             </h1>
 
             <Tokens pageSize={10} />

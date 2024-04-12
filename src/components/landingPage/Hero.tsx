@@ -5,7 +5,7 @@ export const Hero = () => {
     return (
         <section className="container mx-auto px-5 md:px-20 lg:px-40">
             <div className="py-32 lg:py-40 relative">
-                <h1 className="text-4xl sm:text-5xl md:text-5xl xl:text-6xl font-bold font-rubik text-center">
+                <h1 className="text-4xl sm:text-5xl md:text-5xl xl:text-6xl font-bold font-rubik text-center mb-5">
                     Unlock the power of <span className="bg-gradient-to-r from-indigo-600 to-pink-600 bg-clip-text text-transparent">Crypto</span> through CoinSpace
                 </h1>
                 <p className="opacity-80 text-center w-3/4 mx-auto">

@@ -11,7 +11,7 @@ export const Footer = () => {
                     <a href="" className="text-2xl text-pink-600 font-extrabold font-rubik">
                         <i className="fa-brands fa-bitcoin"></i> CoinSpace
                     </a>
-                    <p className="opacity-80">Your All-in-One Destination for Real-Time Market Data and Insights!</p>
+                    <p className="opacity-80 font-inter">Your All-in-One Destination for Real-Time Market Data and Insights!</p>
                 </div>
                 <div className="flex gap-5 items-center font-inter">
                     <p>Follow Us:</p>
