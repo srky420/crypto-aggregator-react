@@ -4,7 +4,7 @@ import { Achievements } from "./Achievements";
 import { Features } from "./Features";
 import { Brands } from "./Brands";
 import { MobileApp } from "./MobileApp";
-import { BlogPosts } from "./BlogPosts";
+import { BlogPosts } from "../globals/BlogPosts";
 import { TokenListing } from "./TokenListing";
 import { useEffect } from "react";
 import { Newsletter } from "../globals/Newsletter";
@@ -25,7 +25,7 @@ export const LandingPage = () => {
             <Features />
             <Brands />
             <MobileApp />
-            <BlogPosts />
+            <BlogPosts itemsToShow={2} />
             <Newsletter />
         </section>
     )

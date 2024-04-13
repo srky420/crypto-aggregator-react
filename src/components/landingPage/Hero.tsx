@@ -9,7 +9,7 @@ export const Hero = () => {
                     Unlock the power of <span className="bg-gradient-to-r from-indigo-600 to-pink-600 bg-clip-text text-transparent">Crypto</span> through CoinSpace
                 </h1>
                 <p className="opacity-80 text-center w-3/4 mx-auto">
-                    Welcome to CryptoSpace: Your Gateway to the Future of Finance!
+                    Welcome to CoinSpace: Your Gateway to the Future of Finance!
                     Experience real-time market data, manage your portfolio effortlessly, and stay ahead of trends with curated news and analysis. 
                 </p>
                 <div className="text-center my-5">

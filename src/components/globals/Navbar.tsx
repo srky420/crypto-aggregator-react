@@ -25,8 +25,8 @@ export const Navbar = () => {
                         <li><NavLink to="/" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">Home</NavLink></li>
                         <li><NavLink to="/about" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">About</NavLink></li>
                         <li><NavLink to="/token-listings" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">Tokens</NavLink></li>
-                        <li><NavLink to="/" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">Blog</NavLink></li>
-                        <li><NavLink to="/" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">Contact</NavLink></li>
+                        <li><NavLink to="/blogs" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">Blog</NavLink></li>
+                        <li><NavLink to="/contact" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">Contact</NavLink></li>
                     </ul>
                     <div className="ms-auto">
                         <Button variant="primary" text="Wallet" />

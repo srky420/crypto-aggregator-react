@@ -10,6 +10,8 @@ import { Error } from './components/globals/Error.tsx'
 import { LandingPage } from './components/landingPage/LandingPage.tsx'
 import { TokensPage } from './components/tokensPage/TokensPage.tsx'
 import { AboutPage } from './components/aboutPage/AboutPage.tsx'
+import { BlogPage } from './components/blogPage/BlogPage.tsx'
+import { ContactPage } from './components/contactPage/ContactPage.tsx'
 
 
 // Create router
@@ -30,6 +32,14 @@ const router = createBrowserRouter([
       {
         path: '/about',
         element: <AboutPage />
+      },
+      {
+        path: '/blogs',
+        element: <BlogPage />
+      },
+      {
+        path: '/contact',
+        element: <ContactPage />
       }
     ]
   }
