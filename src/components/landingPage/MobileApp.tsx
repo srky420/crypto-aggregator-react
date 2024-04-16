@@ -52,6 +52,12 @@ export const MobileApp = () => {
                                         <h2 className="text-lg font-bold">$6,520</h2>
                                     </div>
                                 </div>
+                                <div className="p-5">
+                                    <div className="w-20 h-5 bg-gray-100 rounded-lg mb-2"></div>
+                                    <div className="w-32 h-5 bg-gray-100 rounded-lg mb-2"></div>
+                                    <div className="w-16 h-5 bg-gray-100 rounded-lg mb-2"></div>
+                                    <div className="w-24 h-5 bg-gray-100 rounded-lg"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
