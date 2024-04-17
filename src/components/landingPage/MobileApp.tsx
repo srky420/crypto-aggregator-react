@@ -13,7 +13,7 @@ export const MobileApp = () => {
                         <h1 className="text-4xl sm:text-5xl font-rubik font-bold">
                             Take <span className="text-transparent bg-gradient-to-r from-indigo-600 to-pink-600 bg-clip-text">CoinSpace</span> Everywhere You Go!
                         </h1>
-                        <p className="text-sm text-gray-300">
+                        <p className="text-sm text-gray-300 font-inter">
                             Experience seamless access to the world of cryptocurrencies right from your fingertips with our mobile app. 
                             Stay connected to real-time market updates, manage your portfolio on-the-go, and never miss out on important alerts or news.
                         </p>
@@ -38,8 +38,8 @@ export const MobileApp = () => {
                             <div className="w-10 h-1 my-4 rounded-md bg-white mx-auto"></div>
                             <div className="h-full mx-4 my-4 bg-white">
                                 {/* Mobile nav */}
-                                <div className="font-rubik text-xl flex justify-between px-2 border-b">
-                                    <p className="text-pink-600 font-extrabold "><i className="fa-brands fa-bitcoin"></i> CoinSpace</p>
+                                <div className="font-rubik text-xl flex justify-between px-2 py-1 border-b">
+                                    <p className="text-indigo-500 font-extrabold"><i className="fa-solid fa-coins"></i> CoinSpace</p>
                                     <p><i className="fa fa-bars"></i></p>
                                 </div>
                                 {/* Mobile profile */}

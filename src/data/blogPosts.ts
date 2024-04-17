@@ -5,7 +5,7 @@ export const blogPosts = [
         "content": "Blockchain technology, often synonymous with cryptocurrencies, is the underlying foundation that powers digital currencies like Bitcoin and Ethereum. Unlike traditional centralized systems, blockchain operates on a decentralized network of nodes...",
         "author": "John Doe",
         "published_date": "2024-04-10",
-        "image_url": "https://example.com/blockchain_image.jpg"
+        "image_url": "/blog-01.svg"
     },
     {
         "title": "Navigating the Cryptocurrency Landscape: A Beginner's Guide",
@@ -13,7 +13,7 @@ export const blogPosts = [
         "content": "For newcomers to the world of cryptocurrencies, navigating the complex landscape can be daunting. However, with the right guidance and understanding, anyone can begin their journey into digital assets...",
         "author": "Jane Smith",
         "published_date": "2024-04-08",
-        "image_url": "https://example.com/crypto_landscape_image.jpg"
+        "image_url": "/blog-02.svg"
     },
     {
         "title": "The Rise of Decentralized Finance (DeFi)",
@@ -21,7 +21,7 @@ export const blogPosts = [
         "content": "Decentralized Finance (DeFi) is a rapidly growing sector within the cryptocurrency industry that aims to recreate traditional financial systems using blockchain technology. Unlike traditional finance, which relies on centralized institutions...",
         "author": "Alice Johnson",
         "published_date": "2024-04-06",
-        "image_url": "https://example.com/defi_image.jpg"
+        "image_url": "/blog-03.svg"
     },
     {
         "title": "Understanding Smart Contracts: The Future of Contractual Agreements",
@@ -29,7 +29,7 @@ export const blogPosts = [
         "content": "Smart contracts are self-executing contracts with the terms of the agreement directly written into code. They run on blockchain networks and automatically execute transactions when predetermined conditions are met. Smart contracts...",
         "author": "Robert Williams",
         "published_date": "2024-04-04",
-        "image_url": "https://example.com/smart_contracts_image.jpg"
+        "image_url": "/blog-04.svg"
     },
     {
         "title": "Crypto Investment Strategies: A Comprehensive Guide",

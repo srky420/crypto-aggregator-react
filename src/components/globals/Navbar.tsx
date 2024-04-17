@@ -13,12 +13,12 @@ export const Navbar = () => {
     const toggleOpen = () => setOpen(prev => !prev);
 
     return (
-        <nav className="sticky top-0 bg-white shadow-md z-30">
-            <div className="container mx-auto px-5 lg:px-20 xl:px-40 bg-white">
+        <nav className="sticky top-0 bg-gray-50 shadow-md z-30">
+            <div className="container mx-auto px-5 lg:px-20 xl:px-40 bg-gray-50">
                 <div className="flex gap-3 sm:gap-10 lg:gap-16 items-center py-2 md:py-0">
                     <div className="font-rubik">
-                        <a href="" className="text-2xl text-pink-600 font-extrabold">
-                            <i className="fa-brands fa-bitcoin"></i> CoinSpace
+                        <a href="" className="text-2xl text-indigo-500 font-extrabold">
+                            <i className="fa-solid fa-coins"></i> CoinSpace
                         </a>
                     </div>
                     <ul className="hidden sm:flex font-inter items-center">

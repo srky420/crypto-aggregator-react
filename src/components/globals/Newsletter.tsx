@@ -8,7 +8,7 @@ export const Newsletter = () => {
             <div className="container mx-auto px-5 md:px-20 lg:px-40">
                 {/* Header */}
                 <h1 className="text-4xl sm:text-5xl font-rubik font-bold text-center mb-5 text-white">
-                    Stay Informed with <span className="bg-gradient-to-r from-pink-500 to-indigo-500 bg-clip-text text-transparent">CoinSpace</span> Newsletter
+                    Stay Informed with <span className="bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text text-transparent">CoinSpace</span> Newsletter
                 </h1>
                 <p className="opacity-90 text-center w-3/4 mx-auto font-inter text-white mb-5">
                     Sign up for CoinSpace newsletter to stay updated on the latest trends, news, and insights in the world of cryptocurrencies.

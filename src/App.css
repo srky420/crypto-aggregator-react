@@ -3,7 +3,7 @@ html {
 }
 
 .active {
-    color: indigo;
+    color: rgb(79, 70, 229);
 }
 
 @media screen and (max-width: 1024px) {
