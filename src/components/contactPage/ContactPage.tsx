@@ -42,7 +42,7 @@ export const ContactPage = () => {
                     </div>
                 </div>
 
-                <form className="my-10 lg:my-20 border rounded-2xl p-10 grid grid-cols-2 gap-5 bg-gray-50">
+                <form className="my-10 lg:my-20 border rounded-2xl p-5 sm:p-10 grid grid-cols-2 gap-5 bg-gray-50">
                     <h1 className="text-3xl sm:text-4xl font-rubik font-bold text-center mb-3 col-span-2">
                         Send us a <span className="text-transparent bg-gradient-to-r from-indigo-600 to-pink-600 bg-clip-text">Message</span>
                     </h1>
