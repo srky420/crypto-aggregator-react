@@ -17,7 +17,7 @@ export const ContactPage = () => {
                 <h1 className="text-4xl sm:text-5xl font-rubik font-bold text-center mb-3">
                     Reach <span className="text-transparent bg-gradient-to-r from-indigo-600 to-pink-600 bg-clip-text">Out</span>
                 </h1>
-                <p className="opacity-80 text-center w-3/4 mx-auto mb-10 font-inter">
+                <p className="opacity-80 text-center sm:w-3/4 mx-auto mb-10 font-inter">
                     Have a question, suggestion, or just want to say hello? We'd love to hear from you! 
                     Feel free to reach out to us using the contact details below or fill out the form, 
                     and we'll get back to you as soon as possible.

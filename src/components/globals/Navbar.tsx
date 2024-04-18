@@ -17,16 +17,16 @@ export const Navbar = () => {
             <div className="container mx-auto px-5 lg:px-20 xl:px-40 bg-gray-50">
                 <div className="flex gap-3 sm:gap-10 lg:gap-16 items-center py-2 md:py-0">
                     <div className="font-rubik">
-                        <a href="" className="text-2xl text-indigo-500 font-extrabold">
+                        <NavLink to={"/"} className="text-2xl text-indigo-500 font-extrabold">
                             <i className="fa-solid fa-coins"></i> CoinSpace
-                        </a>
+                        </NavLink>
                     </div>
                     <ul className="hidden sm:flex font-inter items-center">
-                        <li><NavLink to="/" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">Home</NavLink></li>
-                        <li><NavLink to="/about" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">About</NavLink></li>
-                        <li><NavLink to="/token-listings" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">Tokens</NavLink></li>
-                        <li><NavLink to="/blogs" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">Blog</NavLink></li>
-                        <li><NavLink to="/contact" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">Contact</NavLink></li>
+                        <li><NavLink to={"/"} className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">Home</NavLink></li>
+                        <li><NavLink to={"/about"} className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">About</NavLink></li>
+                        <li><NavLink to={"/token-listings"} className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">Tokens</NavLink></li>
+                        <li><NavLink to={"/blogs"} className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">Blog</NavLink></li>
+                        <li><NavLink to={"/contact"} className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">Contact</NavLink></li>
                     </ul>
                     <div className="ms-auto">
                         <NavLink to={"/account"} 

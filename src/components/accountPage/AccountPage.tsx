@@ -1,10 +1,14 @@
 import { Button } from "../globals/Button"
 import accountImg from "../../assets/account.svg"
 import { Newsletter } from "../globals/Newsletter"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 
 export const AccountPage = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
 
     const [form, setForm] = useState<string>('login')
 
@@ -15,15 +19,15 @@ export const AccountPage = () => {
                 <h1 className="text-4xl sm:text-5xl font-rubik font-bold text-center mb-3">
                         Welcome to <span className="text-transparent bg-gradient-to-r from-indigo-600 to-pink-600 bg-clip-text">CoinSpace</span>
                 </h1>
-                <p className="opacity-80 text-center w-3/4 mx-auto mb-10 font-inter">
+                <p className="opacity-80 text-center sm:w-3/4 mx-auto mb-10 font-inter">
                     New here? Sign up now to join our community of crypto enthusiasts and gain access to exclusive features, market insights, and more!
                     <br />
                     <br />
                     Already have an account? Simply log in to continue your crypto journey with CoinSpace.
                 </p>
 
-                <div className="grid grid-cols-2 gap-10 p-5 border bg-gray-50 rounded-2xl items-center">
-                    <div className="bg-white p-5 rounded-xl h-full">
+                <div className="grid sm:grid-cols-2 gap-10 p-5 border bg-gray-50 rounded-2xl items-center">
+                    <div className="bg-white p-5 rounded-xl h-full sm:block hidden">
                         <img src={accountImg} alt="account-image" className="h-full" />
                     </div>
 
@@ -65,7 +69,7 @@ export const AccountPage = () => {
                         </div>
                         <p className="text-center font-inter">or</p>
                         <div className="w-fit mx-auto">
-                            <Button variant="light" text="Sign In with Google" />
+                            <Button variant="light" text={`<i class="fa-brands fa-google text-black me-1"></i> Sign In with Google`} />
                         </div>
                         <p className="font-inter text-center">
                             Already have an account? <button className="underline text-indigo-600" onClick={() => setForm('login')}>Log In</button>

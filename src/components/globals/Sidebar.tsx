@@ -14,11 +14,11 @@ export const Sidebar = (props: { open: boolean; toggleOpen: any }) => {
                     </a>
                 </div>
                 <ul className="mb-5 font-inter">
-                    <li><NavLink to="/" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors" onClick={props.toggleOpen}>Home</NavLink></li>
-                    <li><NavLink to="/about" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors" onClick={props.toggleOpen}>About</NavLink></li>
-                    <li><NavLink to="/token-listings" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors" onClick={props.toggleOpen}>Tokens</NavLink></li>
-                    <li><NavLink to="/blogs" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors" onClick={props.toggleOpen}>Blog</NavLink></li>
-                    <li><NavLink to="/contact" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors" onClick={props.toggleOpen}>Contact</NavLink></li>
+                    <li><NavLink to={"/"} className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors" onClick={props.toggleOpen}>Home</NavLink></li>
+                    <li><NavLink to={"/about"} className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors" onClick={props.toggleOpen}>About</NavLink></li>
+                    <li><NavLink to={"/token-listings"} className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors" onClick={props.toggleOpen}>Tokens</NavLink></li>
+                    <li><NavLink to={"/blogs"} className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors" onClick={props.toggleOpen}>Blog</NavLink></li>
+                    <li><NavLink to={"/contact"} className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors" onClick={props.toggleOpen}>Contact</NavLink></li>
                 </ul>
                 <div className="w-fit mx-auto">
                     <Button variant="icon" text={`<i class="fa-solid fa-chevron-right"></i>`} onClick={props.toggleOpen} />
