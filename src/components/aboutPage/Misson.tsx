@@ -6,7 +6,7 @@ export const Mission = () => {
                     Our <span className="text-yellow-400">Mision</span>
                 </h1>
                 <p className="opacity-90 font-inter">
-                    Our mission at CryptoHub is to democratize access to cryptocurrencies and 
+                    Our mission at CoinSpace is to democratize access to cryptocurrencies and 
                     empower users with the tools and knowledge needed to thrive in the rapidly evolving digital asset ecosystem. 
                     We aim to break down barriers to entry, foster financial inclusion, and drive innovation in the crypto space.
                 </p>

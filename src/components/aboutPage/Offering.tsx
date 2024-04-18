@@ -19,7 +19,7 @@ export const Offering = () => {
                     </p>
                     <div className="absolute -top-10 -right-2 text-9xl mb-3 text-gray-200"><i className="fa-solid fa-key"></i></div>
                 </div>
-                <div className="bg-gray-100 rounded-xl p-5 lg:p-10 relative border overflow-hidden hover:outline-dashed outline-yellow-500">
+                <div className="bg-gray-100 min-[375px]:col-span-2 md:col-span-1 rounded-xl p-5 lg:p-10 relative border overflow-hidden hover:outline-dashed outline-yellow-500">
                     <div className="text-6xl mb-3 text-yellow-500"><i className="fa-solid fa-lightbulb"></i></div>
                     <h2 className="text-2xl font-rubik font-semibold">Continuous Innovation</h2>
                     <p className="opacity-80 font-inter text-sm">
