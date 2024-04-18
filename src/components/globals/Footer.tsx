@@ -8,8 +8,8 @@ export const Footer = () => {
             <hr />
             <div className="flex justify-center md:justify-between gap-5 flex-wrap my-10">
                 <div>
-                    <a href="" className="text-2xl text-pink-600 font-extrabold font-rubik">
-                        <i className="fa-brands fa-bitcoin"></i> CoinSpace
+                    <a href="" className="text-2xl text-indigo-500 font-extrabold font-rubik">
+                        <i className="fa-solid fa-coins"></i> CoinSpace
                     </a>
                     <p className="opacity-80 font-inter">Your All-in-One Destination for Real-Time Market Data and Insights!</p>
                 </div>

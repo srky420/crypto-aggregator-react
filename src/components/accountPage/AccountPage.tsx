@@ -2,6 +2,7 @@ import { Button } from "../globals/Button"
 import accountImg from "../../assets/account.svg"
 import { Newsletter } from "../globals/Newsletter"
 import { useEffect, useState } from "react"
+import { Link } from "react-router-dom"
 
 
 export const AccountPage = () => {
@@ -14,7 +15,10 @@ export const AccountPage = () => {
 
     return (
         <>
-            <section className="container mx-auto px-5 md:px-20 lg:px-40 my-10 lg:my-20">
+            <div className="container mx-auto px-5 md:px-20 lg:px-40 mt-5 font-inter opacity-80 mb-10">
+                <Link to={"/"} className="hover:text-indigo-500">Home</Link> &gt; Account 
+            </div>
+            <section className="container mx-auto px-5 md:px-20 lg:px-40 mb-10 lg:mb-20">
                 {/* Header */}
                 <h1 className="text-4xl sm:text-5xl font-rubik font-bold text-center mb-3">
                         Welcome to <span className="text-transparent bg-gradient-to-r from-indigo-600 to-pink-600 bg-clip-text">CoinSpace</span>

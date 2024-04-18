@@ -10,7 +10,7 @@ export const MobileApp = () => {
                 <div className="flex gap-10 justify-between flex-wrap items-center">
                     {/* Header */}
                     <div className="text-white flex-grow flex-shrink-0 basis-96">
-                        <h1 className="text-4xl sm:text-5xl font-rubik font-bold">
+                        <h1 className="text-4xl sm:text-5xl font-rubik font-bold mb-2">
                             Take <span className="text-transparent bg-gradient-to-r from-indigo-600 to-pink-600 bg-clip-text">CoinSpace</span> Everywhere You Go!
                         </h1>
                         <p className="text-sm text-gray-300 font-inter">

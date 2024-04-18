@@ -4,10 +4,10 @@ import { Achievements } from "./Achievements";
 import { Features } from "./Features";
 import { Brands } from "./Brands";
 import { MobileApp } from "./MobileApp";
-import { BlogPosts } from "../globals/BlogPosts";
 import { TokenListing } from "./TokenListing";
 import { useEffect } from "react";
 import { Newsletter } from "../globals/Newsletter";
+import { LatestBlogs } from "./LatestBlogs";
 
 
 export const LandingPage = () => {
@@ -25,7 +25,7 @@ export const LandingPage = () => {
             <Features />
             <Brands />
             <MobileApp />
-            <BlogPosts itemsToShow={2} />
+            <LatestBlogs />
             <Newsletter />
         </section>
     )
