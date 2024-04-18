@@ -12,6 +12,7 @@ import { TokensPage } from './components/tokensPage/TokensPage.tsx'
 import { AboutPage } from './components/aboutPage/AboutPage.tsx'
 import { BlogPage } from './components/blogPage/BlogPage.tsx'
 import { ContactPage } from './components/contactPage/ContactPage.tsx'
+import { AccountPage } from './components/accountPage/AccountPage.tsx'
 
 
 // Create router
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <ContactPage />
+      },
+      {
+        path: '/account',
+        element: <AccountPage />
       }
     ]
   }

@@ -7,6 +7,8 @@ interface Props {
     text: string;
     disabled?: boolean;
     onClick?: any;
+    href?: string;
+    link?: boolean
 }
 
 export const Button = (props: Props) => {
@@ -37,7 +39,15 @@ export const Button = (props: Props) => {
     }
 
     return (
-        <button className={className} dangerouslySetInnerHTML={{ __html: props.text }} onClick={props.onClick}>
-        </button>
+        <>
+            {props.link ?
+            <a className={className} dangerouslySetInnerHTML={{ __html: props.text }} onClick={props.onClick} href={props.href}>
+            </a>
+            :
+            <button className={className} dangerouslySetInnerHTML={{ __html: props.text }} onClick={props.onClick}>
+            </button>
+            }
+        </>
+
     )
 }

@@ -29,7 +29,10 @@ export const Navbar = () => {
                         <li><NavLink to="/contact" className="block p-5 hover:bg-indigo-500 hover:text-white transition-colors">Contact</NavLink></li>
                     </ul>
                     <div className="ms-auto">
-                        <Button variant="primary" text="Wallet" />
+                        <NavLink to={"/account"} 
+                            className="bg-gradient-to-r from-pink-600 to-indigo-600 text-white hover:bg-gradient-to-l px-6 py-3 rounded-full font-inter">
+                            Wallet
+                        </NavLink>
                     </div>
                     <div className="block sm:hidden">
                         <Button variant="icon" text={`<i class="fa-solid fa-bars"></i>`} onClick={toggleOpen} />
