@@ -1,4 +1,4 @@
-export const cryptoListings = {
+export const cryptoListings: any = {
     "status": {
         "timestamp": "2024-04-03T14:25:30.527Z",
         "error_code": 0,
