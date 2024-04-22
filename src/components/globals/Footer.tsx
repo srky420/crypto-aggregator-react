@@ -64,7 +64,7 @@ export const Footer = () => {
                     <p className="opacity-80">info@cryptospace.com</p>
                 </div>
                 <p className="opacity-80 text-sm font-inter">Inspired by: 
-                    <a href="https://www.figma.com/community/file/1218067021903523746/cryptocurrency-webflow-website-template" 
+                    <a href="https://www.figma.com/@victorflow" 
                     rel="noreferrer" target="_blank" className="underline mx-1">VictorFlow</a>
                 </p>
             </div>
