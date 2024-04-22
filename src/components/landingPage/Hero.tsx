@@ -13,10 +13,10 @@ export const Hero = () => {
                         Welcome to CoinSpace: Your Gateway to the Future of Finance!
                         Experience real-time market data, manage your portfolio effortlessly, and stay ahead of trends with curated news and analysis. 
                     </p>
-                    <div className="text-center my-5">
-                        <Button variant="light" size="lg" text={`Get Started <i class="fa-solid fa-arrow-right group-hover:translate-x-2 transition-all">`} />
+                    <div className="text-center my-5 w-fit mx-auto">
+                        <Button link to={'/account'}
+                            variant="light" size="lg" text={`Get Started <i class="fa-solid fa-arrow-right group-hover:translate-x-2 transition-all">`} />
                     </div>
-                    
                 </div>
             </div>
             <div className="bg-white opacity-10 w-80 h-80 rounded-full -top-32 left-0 absolute z-0"></div>

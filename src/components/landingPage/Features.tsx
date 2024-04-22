@@ -11,7 +11,8 @@ export const Features = () => {
                 <h1 className="text-3xl sm:text-4xl font-rubik font-bold">
                     Empower Your <br /> <span className="text-transparent bg-gradient-to-r from-indigo-600 to-pink-600 bg-clip-text">Crypto</span> Journey
                 </h1>
-                <Button variant="primary" size="lg" text={`Get Started <i class="fa-solid fa-arrow-right group-hover:translate-x-2 transition-all"></i>`} />
+                <Button link to={'/account'}
+                    variant="primary" size="lg" text={`Get Started <i class="fa-solid fa-arrow-right group-hover:translate-x-2 transition-all"></i>`} />
             </div>
 
             {/* Grid */}
