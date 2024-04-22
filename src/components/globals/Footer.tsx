@@ -4,7 +4,7 @@ import { Button } from "./Button"
 
 export const Footer = () => {
     return (
-        <section className="container mx-auto px-5 lg:px-20 xl:px-40 my-10 lg:my-20">
+        <section className="container mx-auto px-5 lg:px-20 xl:px-40 my-10 lg:my-16">
             <hr />
             <div className="flex justify-center md:justify-between gap-5 flex-wrap my-10">
                 <div>
@@ -56,13 +56,17 @@ export const Footer = () => {
                     </ul>
                 </div>
                 <div className="font-inter">
-                    <h3 className="text-lg font-semibold mb-2">Office Address</h3>
+                    <h3 className="text-lg font-semibold">Office Address</h3>
                     <p className="opacity-80 mb-3">Office Address: 123 Main Street, Cityville, CryptoLand, 12345</p>
                     <h3 className="text-lg font-semibold mb-2">Phone Number</h3>
                     <p className="opacity-80 mb-3">+1 (555) 123-4567</p>
                     <h3 className="text-lg font-semibold mb-2">Email Address</h3>
                     <p className="opacity-80">info@cryptospace.com</p>
                 </div>
+                <p className="opacity-80 text-sm font-inter">Inspired by: 
+                    <a href="https://www.figma.com/community/file/1218067021903523746/cryptocurrency-webflow-website-template" 
+                    rel="noreferrer" target="_blank" className="underline mx-1">VictorFlow</a>
+                </p>
             </div>
         </section>
     )
